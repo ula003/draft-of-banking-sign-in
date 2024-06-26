@@ -1,11 +1,3 @@
 {
-  "users": [
-    {
-      "id": "948c",
-      "email": "maximus25june@gmail.com",
-      "name": "DALER",
-      "surname": "SHARIFKULOV",
-      "password": "12345678"
-    }
-  ]
+  "users": []
 }

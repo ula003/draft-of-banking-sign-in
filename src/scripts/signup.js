@@ -1,4 +1,5 @@
 import '../styles/signup.css'
+import { redirect } from '../utils/redirect';
 
 const form = document.forms.signup;
 
@@ -20,4 +21,6 @@ form.onsubmit = (e) => {
 		method: 'POST',
 		body: JSON.stringify(user)
 	});
+
+	redirect('/');
 }
