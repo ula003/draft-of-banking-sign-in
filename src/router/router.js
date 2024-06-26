@@ -24,6 +24,7 @@ function updateContent(path) {
 	const routes = {
 		'/': '/src/pages/index.html',
 		'/signup': '/src/pages/signup.html',
+		'/signin': '/src/pages/signin.html',
 	};
 
 	const page = routes[route] || '404.html';
