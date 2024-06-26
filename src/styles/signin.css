@@ -1,13 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .login {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
     gap: 10px;
     display: flex;
     flex-direction: column;
-        align-items: center;
+    align-items: center;
 
     button {
       background-color: rgba(0, 71, 255, 1);
@@ -31,18 +31,18 @@ body {
       padding: 10px;
       cursor: pointer;
       font-size: 16px;
-            width: 438px;
-            height: 56px;
-            border:none ;
+      width: 438px;
+      height: 56px;
+      border: none;
     }
 
     input {
       border: 2px black solid;
       border-radius: 8px;
       padding: 5px;
-            width: 438px;
-            height: 56px;
-            padding-left: 16px;
+      width: 438px;
+      height: 56px;
+      padding-left: 16px;
     }
   }
 
@@ -61,27 +61,28 @@ body {
     font-weight: 500;
   }
 }
-p{
-    font-size: 48px;
+
+p {
+  font-size: 48px;
 }
 
 .title {
-    margin-bottom: 32px ;
-    text-align: center;
+  margin-bottom: 32px;
+  text-align: center;
 }
 
 .continue {
-    width: 438px;
-    height: 56px;
-    border-radius: 10px;
-    background-color: #0047FF;
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin-top: 8px;
+  width: 438px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: #0047FF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 8px;
 }
 
 .signup {
-    text-align: center;
-    margin-top: 32px;
+  text-align: center;
+  margin-top: 32px;
 }

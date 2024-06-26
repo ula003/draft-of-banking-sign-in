@@ -1,11 +1,12 @@
-const rootDiv = document.getElementById('app');
 
 async function fetchPage(url) {
 	const response = await fetch(url);
 
 	if (response.ok) {
 		const content = await response.text();
-		rootDiv.innerHTML = content;
+		document.open();
+		document.write(content);
+		document.close();
 	} else {
 		rootDiv.innerHTML = '<h1>404 Not Found</h1>';
 	}
